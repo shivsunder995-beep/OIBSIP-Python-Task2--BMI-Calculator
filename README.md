@@ -1,102 +1,120 @@
-Advanced BMI Calculator
+# 🧮 BMI Calculator
+---------------------------------------------
+🏢 Python Programming Internship Project
+📍 Organization : Oasis Infobyte
+---------------------------------------------
+A simple **BMI (Body Mass Index) Calculator** made using **Python**, **Tkinter**, **SQLite3**, and **Matplotlib**.
 
-Project Title
+This project is created for beginners to learn Python GUI programming, basic database operations, and simple graph plotting.
 
-Advanced BMI Calculator using Python, Tkinter, SQLite, and Matplotlib
+---
 
-Objective
+## 📌 Features
 
-The objective of this project is to develop a graphical Body Mass Index (BMI) Calculator that allows multiple users to calculate their BMI, save their records, and visualize BMI trends over time. The application provides a user-friendly interface, stores historical data in an SQLite database, and displays BMI trends using line charts.
+* ✅ Calculate BMI
+* ✅ Easy-to-use Tkinter interface
+* ✅ Save BMI records using SQLite3
+* ✅ Display BMI graph using Matplotlib
+* ✅ Beginner-friendly code
 
-Technologies Used
+---
 
-- Programming Language: Python
-- GUI Framework: Tkinter
-- Database: SQLite (sqlite3)
-- Graph Library: Matplotlib
-- IDE: VS Code / PyCharm / IDLE
+## 🛠️ Technologies Used
 
-Features
+* 🐍 Python
+* 🖥️ Tkinter
+* 🗄️ SQLite3
+* 📊 Matplotlib
 
-- User-friendly GUI built with Tkinter.
-- Input fields for user name, weight (kg), and height (m).
-- BMI calculation using the standard formula:
-  BMI = Weight (kg) / Height² (m²)
-- BMI classification:
-  - Underweight (BMI < 18.5)
-  - Normal (18.5–24.9)
-  - Overweight (25–29.9)
-  - Obese (BMI ≥ 30)
-- Colour-coded BMI results for better visualization.
-- Multi-user support by storing records with user names.
-- Automatic storage of BMI records in an SQLite database.
-- Historical BMI trend visualization using Matplotlib.
-- Input validation for invalid or negative values.
-- Database error handling with appropriate error messages.
+---
 
-Software Requirements
+## 📁 Project Files
 
-- Python 3.x
-- Tkinter (included with Python)
-- SQLite3 (included with Python)
-- Matplotlib
+BMI-Calculator/
+│── Task2.py
+│── database.db
+│── README.md
+```
 
-Install Matplotlib using:
+---
 
+## ▶️ How to Run
+
+### Step 1: Clone the repository
+
+```bash
+git clone https://github.com/your-username/BMI-Calculator.git
+```
+
+### Step 2: Open the project folder
+
+```bash
+cd BMI-Calculator
+```
+
+### Step 3: Install Matplotlib
+
+```bash
 pip install matplotlib
+```
 
-Project Structure
+> **Note:** Tkinter and SQLite3 are already included with most Python installations.
 
-BMI_Calculator/
+### Step 4: Run the project
 
-├── main.py
+```bash
+python Task2.py
+```
 
-├── database.py
+---
 
-├── bmi.db (created automatically)
+## 📏 BMI Formula
 
-└── README.md
+```text
+BMI = Weight (kg) / Height² (m²)
+```
 
-Working of the Project
+---
 
-1. The user enters their name, weight, and height.
-2. The application validates the input values.
-3. BMI is calculated using the BMI formula.
-4. The BMI category is determined.
-5. The result is displayed with a colour indicating the health category.
-6. The record is saved in the SQLite database.
-7. Users can view their previous BMI records as a line graph.
+## 📊 BMI Categories
 
-Database Structure
+| BMI            | Category       |
+| -------------- | -------------- |
+| Less than 18.5 | 🔵 Underweight |
+| 18.5 - 24.9    | 🟢 Normal      |
+| 25 - 29.9      | 🟡 Overweight  |
+| 30 or more     | 🔴 Obese       |
 
-Table Name: bmi_records
+---
 
-Column| Data Type
-id| INTEGER (Primary Key)
-name| TEXT
-weight| REAL
-height| REAL
-bmi| REAL
-category| TEXT
-date| TIMESTAMP
+## 🎯 What I Learned
 
-Advantages
+* 🐍 Python Programming
+* 🖥️ Tkinter GUI
+* 🗄️ SQLite3 Database
+* 📊 Matplotlib Graph
+* 💡 Basic Python Project Development
 
-- Easy to use graphical interface.
-- Stores BMI history for multiple users.
-- Helps users monitor health progress over time.
-- Secure local database storage.
-- Fast and lightweight application.
+---
 
-Future Enhancements
+## 📸 Output
 
-- Add user login and authentication.
-- Export BMI reports as PDF or Excel.
-- Calculate daily calorie requirements.
-- Add height selection in feet/inches and centimeters.
-- Display health recommendations based on BMI.
-- Integrate cloud database support.
+Add your project screenshot here.
+----------------------------------------------------
+<img width="755" height="587" alt="Image" src="https://github.com/user-attachments/assets/3606d0b8-0b81-4ac0-a609-1b74266ed59a" />
+----------------------------------------------------------------------------------------------------------------------------------------
+## 👨‍💻 Author
+------------------------------------------------
+**SHIV SUNDAR MAURYA**
 
-Conclusion
+---
 
-The Advanced BMI Calculator is an efficient desktop application that combines BMI calculation, data storage, and graphical trend analysis in a single system. It demonstrates the use of Python GUI development, SQLite database management, and data visualization, making it an excellent beginner-to-intermediate Python project.
+## ⭐ If You Like This Project
+
+If you found this project useful, please:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+Happy Coding! 🚀
