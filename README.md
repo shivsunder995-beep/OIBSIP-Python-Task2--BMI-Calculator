@@ -1,44 +1,42 @@
 # 🧮 BMI Calculator
 ---------------------------------------------
 🏢 Python Programming Internship Project
+---------------------------------------------
 📍 Organization : Oasis Infobyte
 ---------------------------------------------
 A simple **BMI (Body Mass Index) Calculator** made using **Python**, **Tkinter**, **SQLite3**, and **Matplotlib**.
 
 This project is created for beginners to learn Python GUI programming, basic database operations, and simple graph plotting.
 
----
-
+-----------------------------
 ## 📌 Features
-
+-----------------------------
 * ✅ Calculate BMI
 * ✅ Easy-to-use Tkinter interface
 * ✅ Save BMI records using SQLite3
 * ✅ Display BMI graph using Matplotlib
 * ✅ Beginner-friendly code
 
----
-
+------------------------------
 ## 🛠️ Technologies Used
-
+------------------------------
 * 🐍 Python
 * 🖥️ Tkinter
 * 🗄️ SQLite3
 * 📊 Matplotlib
 
----
-
+-------------------------
 ## 📁 Project Files
-
+-------------------------
 BMI-Calculator/
 │── Task2.py
 │── database.db
 │── README.md
-```
 
----
 
+--------------------
 ## ▶️ How to Run
+--------------------
 
 ### Step 1: Clone the repository
 
@@ -66,18 +64,15 @@ pip install matplotlib
 python Task2.py
 ```
 
----
-
+--------------------
 ## 📏 BMI Formula
-
+--------------------
 ```text
 BMI = Weight (kg) / Height² (m²)
-```
 
----
-
-## 📊 BMI Categories
-
+----------------------------
+## 📊** BMI Categories**
+----------------------------
 | BMI            | Category       |
 | -------------- | -------------- |
 | Less than 18.5 | 🔵 Underweight |
@@ -85,26 +80,25 @@ BMI = Weight (kg) / Height² (m²)
 | 25 - 29.9      | 🟡 Overweight  |
 | 30 or more     | 🔴 Obese       |
 
----
-
+-----------------------------
 ## 🎯 What I Learned
-
+-----------------------------
 * 🐍 Python Programming
 * 🖥️ Tkinter GUI
 * 🗄️ SQLite3 Database
 * 📊 Matplotlib Graph
 * 💡 Basic Python Project Development
 
----
-
+-----------------------
 ## 📸 Output
-
+-----------------------
 Add your project screenshot here.
 ----------------------------------------------------
 <img width="755" height="587" alt="Image" src="https://github.com/user-attachments/assets/3606d0b8-0b81-4ac0-a609-1b74266ed59a" />
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+
 ## 👨‍💻 Author
-------------------------------------------------
 **SHIV SUNDAR MAURYA**
 
 ---
