@@ -29,8 +29,11 @@ This project is created for beginners to learn Python GUI programming, basic dat
 ## 📁 Project Files
 -------------------------
 BMI-Calculator/
+
 │── Task2.py
+
 │── database.db
+
 │── README.md
 
 
@@ -67,8 +70,9 @@ python Task2.py
 --------------------
 ## 📏 BMI Formula
 --------------------
-```text
 BMI = Weight (kg) / Height² (m²)
+
+
 
 ----------------------------
 ## 📊** BMI Categories**
